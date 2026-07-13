@@ -1,0 +1,71 @@
+@font-face {
+  font-family: cursedClock; 
+  src: url(font/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf); /* url of the font */
+}
+
+
+body {
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 400px;
+    width: 600px;
+    margin: 100px auto;
+
+    h2 {
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 90%;
+        margin: 40px auto;
+        text-align: center;
+
+    }
+
+    .box{
+        background-color: #080001;
+        width: 155px;
+        height: 120px;
+        border-radius: 5px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        font-family: cursedClock;
+        color: #F94F6D;
+        font-size: 90px;
+        font-weight: 400;
+        display: flex;
+        text-align: center;
+        
+    }
+
+    .btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    margin: 25px auto;
+
+    button{
+        background-color: transparent;
+        color: #9AABD8;
+        border: 2px solid #9AABD8;
+        border-radius: 2px;
+        height: 45px;
+        width: 45px;
+        font-family: cursedClock;
+        font-size: 15px;
+    }
+}
+
+}
+
+
